@@ -1,14 +1,20 @@
-## Stock Price Direction Prediction Model
+# Stock Price Direction Prediction Model
 # Overview
 This project implements a robust machine learning pipeline for predicting stock price direction using logistic regression. The model leverages historical stock data from Yahoo Finance, incorporates technical indicators, and provides performance evaluation and visualization capabilities. The codebase is designed to be modular, extensible, and suitable for both educational and practical applications in financial data analysis.
 Features
 
-### Data Acquisition: Fetches historical stock data using the yfinance library for a user-specified stock symbol and time period.
-### Feature Engineering: Computes technical indicators such as Simple Moving Averages (SMA), Relative Strength Index (RSI), and binary overbought/oversold signals.
-### Model Training: Employs logistic regression with feature scaling to predict whether the stock price will increase or decrease on the next trading day.
-### Evaluation: Assesses model performance using metrics like accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrix.
-### Visualization: Generates a plot showing actual stock prices alongside predicted probabilities of price increases, saved as a high-resolution image.
-### Persistence: Saves the trained model and scaler for future use using joblib.
+### Data Acquisition: 
+Fetches historical stock data using the yfinance library for a user-specified stock symbol and time period.
+### Feature Engineering: 
+Computes technical indicators such as Simple Moving Averages (SMA), Relative Strength Index (RSI), and binary overbought/oversold signals.
+### Model Training: 
+Employs logistic regression with feature scaling to predict whether the stock price will increase or decrease on the next trading day.
+### Evaluation: 
+Assesses model performance using metrics like accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrix.
+### Visualization: 
+Generates a plot showing actual stock prices alongside predicted probabilities of price increases, saved as a high-resolution image.
+### Persistence: 
+Saves the trained model and scaler for future use using joblib.
 
 # Requirements
 To run this project, ensure the following Python packages are installed:
