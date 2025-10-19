@@ -98,5 +98,5 @@ Add cross-validation to improve model robustness.
 Implement real-time data fetching for live predictions.  
 Enhance visualization with interactive plots using libraries like plotly.  
 
-License
+## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as needed.
